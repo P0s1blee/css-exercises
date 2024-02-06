@@ -1,7 +1,19 @@
-.number.odd{
-    color: rgb(rgba(255, 69, 69, 0.906), 0, 0);
+.odd{
+    background-color: rgb(255, 127, 127);
+    font-family: "Verdana", "Dejavu Sans", "sans-serif";
 }
 
-body{
-    background-color: red;
+#second{
+    color:rgb(25, 25, 255);
+    font-size: 36px;
+}
+
+.third{
+    font-size: 24px
+}
+
+#fourth{
+    background-color: rgb(101, 238, 101);
+    font-size: 24px;
+    font-weight: bold;
 }
