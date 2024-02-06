@@ -5,38 +5,43 @@ body {
 .para,
 .small-para {
   color: hsl(0, 0%, 0%);
-  font-weight: 800;
+  font-weight: bold;
 }
 
-.small-para {
+p.small-para {
   font-size: 14px;
-  font-weight: 800;
+  font-weight: bold;
 }
 
 .para {
   font-size: 22px;
 }
 
-.confirm {
-  background: green;
+.confirm{
+  background-color:  rgb(2, 154, 2);
   color: white;
   font-weight: bold;
+  border: 2px black solid;
 } 
 
-.button {
+.cancel {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
-  font-size: 20px;
+  border: 2px black solid;
 }
 
-.child {
-  color: rgb(0, 0, 0);
-  font-weight: 800;
-  font-size: 14px;
+.button{
+  font-size: 23px;
 }
 
 div.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
+}
+
+div.child {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: 14px;
 }
